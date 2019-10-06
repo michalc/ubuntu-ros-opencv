@@ -6,7 +6,7 @@ Docker image with ROS and OpenCV, accessible via a web browser. Not very tested,
 ## Building
 
 ```bash
-docker build . -t ubuntu-ros
+docker build . -t ubuntu-ros-opencv
 ```
 
 
