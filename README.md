@@ -13,11 +13,4 @@ docker run --rm -p 6080:80 -v /dev/shm:/dev/shm -v "$PWD":/root/host --name ubun
 
 Then go to http://localhost:6080/ to load up the desktop running in the docker container.
 
-
-## Executing shell commands in the docker container from the host shell
-
-```bash
-docker exec -it ubuntu-ros-opencv bash
-source /root/.bashrc
-# Any commands
-```
+![Screenshot of linux desktop in a browser running Gazebo](gazibo.png)
